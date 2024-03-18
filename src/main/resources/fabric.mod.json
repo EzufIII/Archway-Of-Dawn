@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "archway-of-dawn",
+	"version": "${version}",
+	"name": "Archway Of Dawn",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Elumni"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/archway-of-dawn/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.elumni.dawnarchway.ArchwayOfDawn"
+		],
+		"client": [
+			"net.elumni.dawnarchway.ArchwayOfDawnClient"
+		],
+		"fabric-datagen": [
+			"net.elumni.dawnarchway.ArchwayOfDawnDataGenerator"
+		]
+	},
+	"mixins": [
+		"archway-of-dawn.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.7",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
