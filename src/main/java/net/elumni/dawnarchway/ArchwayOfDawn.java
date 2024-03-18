@@ -1,5 +1,7 @@
 package net.elumni.dawnarchway;
 
+import item.ModItemGroups;
+import item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -11,6 +13,8 @@ public class ArchwayOfDawn implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroups.registerItemGroups();
+		ModItems.registerModItems();
 
 		LOGGER.info("Hello Fabric world!");
 	}
