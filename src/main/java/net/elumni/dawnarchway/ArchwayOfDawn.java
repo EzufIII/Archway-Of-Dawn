@@ -1,5 +1,6 @@
 package net.elumni.dawnarchway;
 
+import block.ModBlocks;
 import item.ModItemGroups;
 import item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -14,6 +15,7 @@ public class ArchwayOfDawn implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItemGroups.registerItemGroups();
+		ModBlocks.registerModBlocks();
 		ModItems.registerModItems();
 
 		LOGGER.info("Hello Fabric world!");

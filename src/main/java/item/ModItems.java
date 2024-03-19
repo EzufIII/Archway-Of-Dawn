@@ -24,6 +24,6 @@ public class ModItems {
     public static void registerModItems() {
         ArchwayOfDawn.LOGGER.info("Registering Mod Items for"+ ArchwayOfDawn.MOD_ID);
 
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemsToIngredientTabItemGroup);
+
     }
 }

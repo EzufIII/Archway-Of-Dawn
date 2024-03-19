@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "archway-of-dawn:block/celestial_crystal_block"
+  }
+}

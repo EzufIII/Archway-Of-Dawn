@@ -1,5 +1,6 @@
 package item;
 
+import block.ModBlocks;
 import net.elumni.dawnarchway.ArchwayOfDawn;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
@@ -17,6 +18,8 @@ public class ModItemGroups {
                         entries.add(ModItems.Moon_Stone);
                         entries.add(ModItems.Celestial_Geode);
                         entries.add(ModItems.Celestial_Crystal);
+                        entries.add(ModBlocks.Moon_Stone_Block);
+                        entries.add(ModBlocks.Celestial_Crystal_Block);
                     }).build());
 
 

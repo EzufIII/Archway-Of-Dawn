@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "archway-of-dawn:block/moon_stone_block"
+  }
+}

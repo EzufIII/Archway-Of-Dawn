@@ -2,5 +2,8 @@
   "item.archway-of-dawn.moon_stone": "Moon Stone",
   "item.archway-of-dawn.celestial_geode": "Celestial Geode",
   "item.archway-of-dawn.celestial_crystal": "Celestial Crystal",
-  "itemgroup.archway": "Archway Of Dawn"
+  "itemgroup.archway": "Archway Of The Dawn",
+  "block.archway-of-dawn.moon_stone_block": "Moon Stone Block",
+  "block.archway-of-dawn.celestial_crystal_block": "Celestial Crystal Block"
+
 }
