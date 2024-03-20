@@ -20,6 +20,7 @@ public class ModItemGroups {
                         entries.add(ModItems.Celestial_Crystal);
                         entries.add(ModBlocks.Moon_Stone_Block);
                         entries.add(ModBlocks.Celestial_Crystal_Block);
+                        entries.add(ModBlocks.Astral_Pot );
                     }).build());
 
 
