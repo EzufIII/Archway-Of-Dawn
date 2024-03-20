@@ -6,8 +6,7 @@ import net.minecraft.block.ShapeContext;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.util.shape.VoxelShapes;
-
-import javax.swing.text.html.BlockView;
+import net.minecraft.world.BlockView;
 
 public class astral_pot extends Block {
 
@@ -15,8 +14,8 @@ public class astral_pot extends Block {
         super(settings);
     }
 
-
+    @Override
     public VoxelShape getOutlineShape(BlockState state, BlockView view, BlockPos pos, ShapeContext context) {
-        return VoxelShapes.cuboid(0f,0f,0f,1f,2.0f, 1);
+        return VoxelShapes.cuboid(0.25f, 0f, 0.25f, 0.75f, 1.5f, 0.75f);
     }
 }

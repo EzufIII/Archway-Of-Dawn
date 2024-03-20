@@ -20,7 +20,7 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK)));
 
     public static final Block Astral_Pot = registerBlock("astral_pot",
-            new astral_pot(FabricBlockSettings.copyOf(Blocks.DECORATED_POT).nonOpaque()));
+            new astral_pot(FabricBlockSettings.copyOf(Blocks.DECORATED_POT).nonOpaque().hardness(3F)));
 
 
 
