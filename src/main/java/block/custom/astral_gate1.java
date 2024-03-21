@@ -8,14 +8,14 @@ import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.util.shape.VoxelShapes;
 import net.minecraft.world.BlockView;
 
-public class astral_pot extends Block {
+public class astral_gate1 extends Block {
 
-    public astral_pot(Settings settings) {
+    public astral_gate1(Settings settings) {
         super(settings);
     }
 
     @Override
     public VoxelShape getOutlineShape(BlockState state, BlockView view, BlockPos pos, ShapeContext context) {
-        return VoxelShapes.cuboid(0.25f, 0f, 0.25f, 0.75f, 1.5f, 0.75f);
+        return VoxelShapes.cuboid(0.01f, 0.01f, 0.01f, 0.1, 0.1f, 0.1f);
     }
 }

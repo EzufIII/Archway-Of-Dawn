@@ -1,5 +1,7 @@
 package block;
 
+import block.custom.astral_gate1;
+import block.custom.astral_gate2;
 import block.custom.astral_pot;
 import block.custom.astral_stalgam;
 import net.elumni.dawnarchway.ArchwayOfDawn;
@@ -18,12 +20,17 @@ public class ModBlocks {
     public static final Block Moon_Stone_Block = registerBlock("moon_stone_block",
             new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE)));
     public static final Block Celestial_Crystal_Block = registerBlock("celestial_crystal_block",
-            new Block(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK)));
+            new Block(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK).luminance(10)));
 
     public static final Block Astral_Pot = registerBlock("astral_pot",
             new astral_pot(FabricBlockSettings.copyOf(Blocks.DECORATED_POT).nonOpaque().hardness(3F)));
     public static final Block Astral_Stalgam = registerBlock("astral_stalgam",
             new astral_stalgam(FabricBlockSettings.copyOf(Blocks.DEEPSLATE).nonOpaque().hardness(3F)));
+    public static final Block Astral_Gate1 = registerBlock("astral_gate1",
+            new astral_gate1(FabricBlockSettings.copyOf(Blocks.STONE_BRICKS).nonOpaque().hardness(100F)));
+
+    public static final Block Astral_Gate2 = registerBlock("astral_gate2",
+            new astral_gate2(FabricBlockSettings.copyOf(Blocks.STONE_BRICKS).nonOpaque().hardness(100F)));
 
 
 
